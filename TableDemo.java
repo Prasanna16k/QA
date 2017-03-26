@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class TableDemo {
 	
 	public static void main(String args[]){
-		
+		System.setProperty("webdriver.gecko.driver", "C:\\sel Drivers\\geckodriver.exe");
 		FirefoxDriver d1 = new FirefoxDriver();
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\sindhu\\Desktop\\Selenium\\chromedriver.exe");
 		//ChromeDriver d1 = new ChromeDriver();

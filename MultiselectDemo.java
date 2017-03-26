@@ -13,7 +13,7 @@ public class MultiselectDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
+		System.setProperty("webdriver.gecko.driver", "C:\\sel Drivers\\geckodriver.exe");
 		FirefoxDriver f1 = new FirefoxDriver();
 		f1.get("http://demos.devexpress.com/aspxeditorsdemos/ListEditors/MultiSelect.aspx");
 		f1.findElement(By.id("ContentHolder_lbSelectionMode_I")).click();

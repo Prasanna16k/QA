@@ -7,6 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class ThreadsleepDemo {
 
 	public static void main(String args[]){
+		System.setProperty("webdriver.gecko.driver", "C:\\sel Drivers\\geckodriver.exe");
 		FirefoxDriver d1 = new FirefoxDriver();
 		///d1.get("http://www.calculator.net/gas-mileage-calculator.html");
 		d1.get("http://www.calculator.net");
